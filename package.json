@@ -1,0 +1,19 @@
+{
+  "name": "p3_wiltshire_yannis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./Sass/style_restaurants.scss:./Sass/style_restaurants.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YannisWILTSHIRE/OpenClassroom_P3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YannisWILTSHIRE/OpenClassroom_P3/issues"
+  },
+  "homepage": "https://github.com/YannisWILTSHIRE/OpenClassroom_P3#readme"
+}
