@@ -4,7 +4,7 @@
         <title>OhMyFood-site culinaire</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-        <link rel="stylesheet" type="text/css" href="style_restaurants.css">
+        <link rel="stylesheet" type="text/css" href="Sass/style_restaurants.css">
         <script src="https://kit.fontawesome.com/a575f7e09c.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,7 @@
     </head>
     <body>
         <header>
+            <!--Partie Header-->
             <div class="icone">
                 <a href="ohmyfood_page_d_acceuil.html">
                     <i class="fas fa-arrow-left"></i>
@@ -22,115 +23,164 @@
                 <h1>ohmyfood</h1>
             </div>
         </header>
+        <!--Photo de couverture-->
         <div class="cadre_photo">
-            <img class="photo" src="Maquettes_Ohmyfood/Maquettes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française"/>
+            <img class="photo" src="Maquettes_Ohmyfood/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française"/>
         </div>
         <main>
-            <div class="width95">
-                <div class="titre_coeur">
+            <!--Partie titre principale et coeur-->
+            <div class="main_page--background">
+                <div class="maintitle">
                     <h2>À la française</h2>
-                        <div>
-                            <i class="fa-regular fa-heart"></i>
-                        </div>
+                    <div class="maintitle__coeur-background">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart like"></i>
+                    </div>
                 </div>
-                <div class="menu-width">
+                <!--Partie Cases du menu-->
+                <div class="cases_menu-width">
                     <div class="menu__width-titre">
                         <h3>ENTRÉES</h3>
                     </div>
-                    <div class="margin_menu">
+                    <div class="cases__menu-marginbottom">
                         <div class="case_plat d1">
                             <div class="texte_coeur">
                                 <h4>Tartare de poulpe acidulé</h4>     
-                            </div>
-                            <div class="price">
                                 <p>Aux zestes d'orange</p>
+                            </div>
+                            <div class="price">                          
                                 25€
+                            </div>
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="case_plat d2">
                             <div class="texte_coeur">
-                                <h4>Velouté de légumes d'antan</h4>    
+                                <h4>Velouté de légumes d'antan</h4>
+                                <p>Carotte, panais, topinambour</p>    
                             </div>
-                            <div class="price">
-                                <p>Carotte, panais, topinambour</p>
+                            <div class="price">                          
                                 35€
                             </div> 
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="case_plat d3">
                             <div class="texte_coeur">
-                                <h4>Soupe à l'oignon</h4>     
+                                <h4>Soupe à l'oignon</h4> 
+                                <p>Revisitée</p>    
                             </div>
-                            <div class="price">
-                                <p>Revisitée</p>
+                            <div class="price">                            
                                 20€
                             </div> 
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="menu-width">
+                <div class="cases_menu-width">
                     <div class="menu__width-titre">
                         <h3>PLATS</h3>
                     </div>
-                    <div class="margin_menu">
+                    <div class="cases__menu-marginbottom">
                         <div class="case_plat d1">
                             <div class="texte_coeur">
-                                <h4>Coquilles Saint-Jacques</h4>      
+                                <h4>Coquilles Saint-Jacques</h4>   
+                                <p>Accompagnées d'une purée de panais</p>   
                             </div>
-                            <div class="price">
-                                <p>Accompagnées d'une purée de panais</p>
+                            <div class="price">                          
                                 40€
+                            </div>
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="case_plat d2">
                             <div class="texte_coeur">
                                 <h4>Magret de canard</h4>    
-                            </div>
-                            <div class="price">
                                 <p>Et parmentier de pommes de terre</p>
+                            </div>
+                            <div class="price">                              
                                 35€
                             </div> 
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="case_plat d3">
                             <div class="texte_coeur">
-                                <h4>Pigeonneau d’Ille-et-Vilaine</h4>    
+                                <h4>Pigeonneau d’Ille-et-Vilaine</h4>  
+                                <p>Sur son lit de gnocchis aux légumes</p>  
                             </div>
-                            <div class="price">
-                                <p>Sur son lit de gnocchis aux légumes</p>
+                            <div class="price">                                
                                 44€
                             </div> 
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="menu-width">
+                <div class="cases_menu-width">
                     <div class="menu__width-titre">
                         <h3>DESSERTS</h3>
                     </div>
-                    <div class="margin_menu">
+                    <div class="cases__menu-marginbottom">
                         <div class="case_plat d1">
                             <div class="texte_coeur">
-                                <h4>Pétales de violettes glacés</h4>      
+                                <h4>Pétales de violettes glacés</h4> 
+                                <p>Et purée de noisettes</p>     
                             </div>
-                            <div class="price">
-                                <p>Et purée de noisettes</p>
+                            <div class="price">                               
                                 18€
+                            </div>
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="case_plat d2">
                             <div class="texte_coeur">
-                                <h4>Fondant au chocolat</h4>           
+                                <h4>Fondant au chocolat</h4> 
+                                <p>Revisitée</p>          
                             </div>
-                            <div class="price">
-                                <p>Revisitée</p>
+                            <div class="price">                              
                                 22€
                             </div> 
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="case_plat d3">
                             <div class="texte_coeur">
-                                <h4>Millefeuille croustillant</h4>                      
+                                <h4>Millefeuille croustillant</h4>  
+                                <p>Myrtilles et pâte d’amande</p>                    
                             </div>
-                            <div class="price">
-                                <p>Myrtilles et pâte d’amande</p>
+                            <div class="price">                              
                                 23€
+                            </div>
+                            <div class="confirmation">
+                                <div class="confirmation-icone">
+                                    <i class="fas fa-check checked"></i>
+                                </div>
                             </div> 
                         </div>
                     </div>
@@ -141,6 +191,7 @@
             </div>
         </main>
         <footer>
+            <!--Partie footer-->
             <div>
                 <h3>ohmyfood</h3>
             </div>
