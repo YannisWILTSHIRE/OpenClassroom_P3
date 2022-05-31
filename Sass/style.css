@@ -154,6 +154,11 @@ form {
   margin-bottom: 40px;
   flex-wrap: wrap;
 }
+@media screen and (max-width: 571px) {
+  .cases_fonctionnement {
+    justify-content: center;
+  }
+}
 
 .case_choix {
   display: flex;
@@ -213,6 +218,11 @@ main h2 {
 .casephoto_texte {
   display: flex;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 562px) {
+  .casephoto_texte {
+    justify-content: center;
+  }
 }
 
 .casephoto_texte__vignette {

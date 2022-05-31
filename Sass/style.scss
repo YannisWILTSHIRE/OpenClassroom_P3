@@ -145,6 +145,10 @@
     display: flex;
     margin-bottom: 40px;
     flex-wrap: wrap;
+    @media screen and (max-width: 571px){
+      justify-content: center;
+    }
+    
   }
   
   .case_choix {
@@ -198,6 +202,9 @@
   .casephoto_texte {
     display: flex;
     flex-wrap: wrap;
+    @media screen and (max-width: 562px) {
+        justify-content: center;
+    }
   }
   .casephoto_texte__vignette {
     background-color: white;
